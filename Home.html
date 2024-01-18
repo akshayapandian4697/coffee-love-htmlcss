@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Home.css">
+    <title>Coffee Love</title>
+</head>
+
+<body>
+    <header>
+        <div id="coffeeban">
+            <ul>
+                <li><img id=coffeebanner src="./imgs/icon1.jpg" alt=""></li>
+                <li><h1> Coffee Love </h1></li>
+            </ul>
+        </div>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="Coffee.html">Coffee</a>
+            <a href="IceCream.html">Ice Creams</a>
+            <a href="Food.html">Food</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <div id="intro">
+
+            <div id="about">
+                <h1> We're serving you the world's BEST coffee with LOVE </h1>
+                <h2>Medium-dark roasted coffee beans and advanced double-filter technology. A rich, full flavour in
+                    every mug.</h2>
+                <p> Over the years, Coffee Love is single origin Canadian coffee. It is handled with the utmost care
+                    by our family and the families that help us work to produce the highest quality grade exportation
+                    coffee. We have been certified 100% Organic and Fair-Trade. We are working closely with
+                    indigenous-Colombian communities in the region to help us better understand the land, planting,
+                    harvesting, as well as processing the coffee to green beans with the smallest eco-footprint. This
+                    attention to detail gives Maderas Coffee an unparalleled quality and desirability. </p>
+            </div>
+
+            <div id="buttonwrap">
+                <button id="blogbutton">View Our Blog</button>
+            </div>
+
+        </div>
+
+
+        <div id="menu">
+            <h3> View Our Menu</h3>
+
+            <div id="multicol">
+                <section class="item25">
+                    <a href="Coffee.html"> <img id=coffeeicon1 class = "menuitems" src="./imgs/coffee2.PNG" alt="Coffee"> </a>
+                    <h3>Coffee</h3>
+                </section>
+
+                <section class="item25">
+                    <a href="IceCream.html"> <img id=coffeeicon2 class = "menuitems" src="./imgs/img4.PNG" alt="Ice Cream"> </a>
+                    <h3>Ice Cream</h3>
+                </section>
+
+                <section class="item25">
+                    <a href="Food.html"> <img id=coffeeicon3 class = "menuitems" src="./imgs/food2.PNG" alt="Food"> </a>
+                    <h3>Food</h3>
+                </section>
+
+                <section class="item25">
+                     <img id=coffeeicon4 class = "menuitems" src="./imgs/Chai-Tea.jpg" alt="Tea"> 
+                    <h3>Tea</h3>
+                </section>
+
+            </div>
+        </div>
+
+
+        <div id="booking">
+
+            <div id="bookingtab">
+                <h3> Book a Table </h3>
+                <form>
+                    <label for="date">Date</label>
+                    <input type="date" id = "dateenter" name="date" size="20" placeholder="Preferred Date">
+
+                    <label for="time">Time</label>
+                    <input type="time" id = "timeenter" name="time" size="20" placeholder="Preferred Time">
+
+                    <label for="guest">Number of Guests</label>
+                    <input type="number" id = "guest" name="guest" size="20" placeholder="Number of Guests">
+
+                    <label for="interest">Preferences</label>
+                    <div>
+                        <input type="radio" name="preference" value="coffee"> <label for="coffee">Coffee Only </label>
+                        <input type="radio" name="preference" value="Tea"> <label for="Tea">Tea Only </label>
+                        <input type="radio" name="preference" value="both"> <label for="both">Both Coffee and tea
+                        </label>
+                    </div>
+
+                    <label for="comments">Any additional Comments?</label>
+                    <textarea name="comments" id = "commentsenter" cols="60" rows="3"> </textarea>
+
+                    <label for="submit"></label>
+                    <input type="submit" value="Book Now">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+  
+        <div id="flex_container">
+        <div class="item">
+            <h4>Open Hours</h4>
+            <ul>
+                <li>Monday - Friday - 8.00 AM - 10.00PM </li>
+                <li>Saturday - 8.00 AM - 11.00PM </li>
+                <li>Sunday - 10.00 AM - 11.00PM </li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h4>Contact us</h4>
+            <p>
+                Coffee Love
+                Dundas Street,
+                Mississauga, Ontario </p>
+                Email address - coffeelove@gmail.com
+        </div>
+
+        <div class="desktop">
+            <h4>Get News & Offers</h4>
+            <input type="text" name="mail" size="20" placeholder="Enter your E-Mail Address">
+            <button id="footbutton">Subscribe</button>
+        </div>
+
+        <p id="copyright">
+            Copyright &copy; Coffee Love, Canada
+        </p>
+        </div>
+    </footer>
+</body>
+
+</html>

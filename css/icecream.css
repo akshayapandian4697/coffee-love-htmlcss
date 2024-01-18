@@ -1,0 +1,461 @@
+/********************** Start of header ****************************/
+header {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#coffeebanner{
+  height: 60px;
+  width: auto;
+}
+
+#coffeeban ul li{
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a{
+  font-family: 'Georgia', 'Brush Script MT',Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  font-size: 24px;
+  color: #DD9933;
+  padding-right: 15px;
+}
+  
+header h1 {
+  line-height: 70%;
+  font-size: 2.5em;
+  font-weight: 500;
+  margin : 0;
+  color: #DD9933;
+  font-family: 'Curlz MT', Georgia, 'Times New Roman', Times, serif;
+}
+
+/********************** End of header ****************************/
+
+
+/********************** Start of body ****************************/
+#buttonwrap{
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  padding : 20px 0px 20px 0px;
+}
+
+#blogbutton{
+    background-color: #d1a25b; /* Green */
+    border: none;
+    color: rgb(95, 50, 17);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 9px 28px; 
+    border-radius: 18px;
+}
+
+
+body{
+  background-color: #2c2828;
+  color: #fffff0;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+#intro {
+  background-image: url("./imgs/herimg7.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#about{
+  padding-left: 10px;
+  width: 40%;
+}
+
+#about h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #f5ddc5;
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#about p{
+  text-align: justify;
+}
+
+#about h2{
+  color: #f5ddc5;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.25em;
+  padding-bottom: 30px;
+} 
+
+#menu {
+ padding-top: 40px;
+}
+
+#multicol{
+  display : flex;
+  /* flex-wrap: wrap; */
+  overflow: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.item25{
+  text-align: center;
+}
+
+#multicol h3{
+  text-decoration: none;
+}
+
+.menuitems{
+  height: 230px;
+  width: 250px;
+}
+
+#menu h3{
+  text-align: center;
+  font-family: 'Footlight MT', Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+
+#booking {
+  background-image: url("./imgs/herimg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding : 20px;
+}
+
+#bookingtab {
+ width: 50%;
+}
+
+#bookingtab h3 {
+  font-size: 20px;
+  text-align: center;
+ }
+
+form{
+  width: 100%;
+  padding: 40px 0px 20px 40px;
+  display: grid;
+  grid-template-columns: 200px auto;
+  gap : 8px;
+}
+
+label + *{
+  margin-bottom: 15px;
+}
+
+input[type=submit]{
+  justify-self: start;
+  background-color: #d1a25b; 
+    border: none;
+    color: rgb(95, 50, 17);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 9px 28px; 
+    border-radius: 18px;
+}
+
+input[type="date"], input[type="time"], input[type="number"] {
+  width: 300px;
+  height: 30px;
+}
+
+label{
+  font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+/********************** End of body ****************************/
+
+/********************** Start of footer ****************************/
+footer{
+  color: #fffff0;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#flex_container {
+  display : flex;
+  flex-wrap : wrap; 
+}
+
+.item, .desktop{
+  display: block;
+  flex-grow : 1;
+  padding-left: 2%;
+}
+
+#copyright {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 100%;
+  font-size: 10px;
+}
+
+footer h4{
+ padding-bottom: 10px;
+}
+
+#footbutton{
+  background-color: #d1a25b; 
+  border: none;
+  color: rgb(95, 50, 17);
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 7px 18px; 
+  border-radius: 12px;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 40px;
+}
+
+td {
+  border: 3px solid wheat;
+  border-radius: 7%;
+  text-align: center;
+  width: 25%;
+  padding: 15px;
+}
+
+#imgcol{
+  width: 50%;
+}
+
+main h1, h2 {
+  text-align: center;
+}
+
+ /*Mobile view*/
+ @media only all and (max-width:760px) {
+
+  .desktop{
+    display: none;
+  }
+ 
+  /********************** Start of header ****************************/
+  header {
+    margin: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #coffeebanner{
+    height: 55px;
+    width: auto;
+    padding-bottom: 5px;
+  }
+
+  header nav{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #coffeeban ul{
+    padding: 0;
+  }
+  
+  header nav a{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 0px;
+    font-style: normal;
+  }
+    
+  header h1 {
+    line-height: 40%;
+    font-size: 27px;
+  }
+
+  /********************** End of header ****************************/
+
+  /********************** Start of body ****************************/
+
+  body{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #intro {
+    background-image: url("./imgs/log4.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #about{
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  #about p{
+    text-align: justify;
+  }
+  
+  #about h1{
+    font-size: 23px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  #about h2{
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+  } 
+
+  #buttonwrap{
+    width: 100%;
+  }
+ 
+  #multicol{
+    display : grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    flex-wrap: none;
+  }
+
+  .menuitems{
+    height: 170px;
+    width: 190px;
+  }
+
+  #menu h3{
+    font-size: 15px;
+  }
+
+  #booking {
+    padding-top : 10px;
+  }
+  
+#bookingtab {
+  width: 100%;
+ }
+
+ #bookingtab h3 {
+  font-size: 15px;
+ }
+ 
+ form{
+   width: 90%;
+   padding: 10px 0px 10px 40px;
+   display: grid;
+   grid-template-columns: 100px auto;
+   gap : 4px;
+ }
+ 
+ label + *{
+   margin-bottom: 5px;
+ }
+ 
+ input[type=submit]{
+   justify-self: start;
+   background-color: #d1a25b; 
+     border: none;
+     color: rgb(95, 50, 17);
+     text-align: center;
+     text-decoration: none;
+     display: flex;
+     font-size: 10px;
+     font-weight: 600;
+     margin: 4px 2px;
+     cursor: pointer;
+     padding: 9px 28px; 
+     border-radius: 18px;
+ }
+ 
+ input[type="date"], input[type="time"], input[type="number"] {
+   width: 300px;
+   height: 30px;
+ }
+ 
+ label{
+   font-size: 12px;
+ }
+
+   /********************** Start of footer ****************************/
+ footer{
+   margin: 0;
+ }
+
+ footer div{
+   width: 100%;
+ }
+
+ .item{
+  float: none;
+  text-align: center;
+}
+
+.item ul li{
+  list-style: none;
+}
+
+  /********************** End of footer ****************************/
+
+  /********************** Start of Icecream body *******************/
+
+  table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 0.2px solid wheat;
+    margin-top: 30px;
+  }
+  
+  td {
+    border: 3px solid wheat;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #imgcol{
+    width: 100%;
+  }
+
+  main {
+    margin: 10%;
+  }
+
+  table td h3, span {
+    font-size: 13px;
+  }
+
+}

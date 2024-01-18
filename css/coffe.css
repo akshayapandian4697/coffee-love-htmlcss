@@ -1,0 +1,482 @@
+#header_Product {
+  text-align: center;
+  margin-top: 50px;
+}
+#coffe_1 {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  object-fit: stretch;
+}
+#row_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+  width: 400px;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  display: block;
+  height: 100%; 
+  overflow: hidden;
+  text-decoration: none;
+}
+.card h2 {
+  /* margin-left: 10px; */
+  font-size: 28px;
+  margin-top: 20px;
+}
+.card p {
+  font-size: 22px;
+  float: left;
+  text-align: left;
+
+}
+.card h3 {
+  margin-left: 10px;
+  margin-top: 80px;
+}
+/********************** Start of header ****************************/
+header {
+  margin-left: 2%;
+  margin-right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#coffeebanner{
+  height: 60px;
+  width: auto;
+}
+
+#coffeeban ul li{
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a{
+  font-family: 'Georgia', 'Brush Script MT',Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  font-size: 24px;
+  color: #DD9933;
+  padding-right: 15px;
+}
+  
+header h1 {
+  line-height: 70%;
+  font-size: 2.5em;
+  font-weight: 500;
+  margin : 0;
+  color: #DD9933;
+  font-family: 'Curlz MT', Georgia, 'Times New Roman', Times, serif;
+}
+
+/********************** End of header ****************************/
+
+
+
+body {
+  background-color: #2a282c;
+  color: #fffff0;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  padding-right: 40px;
+  font-family: "Cambria";
+  font-size: 1em;
+  padding-top: 10px;
+}
+
+#intro h3 {
+  padding-top: 80px;
+  text-align: center;
+  font-family: "Footlight MT";
+  font-size: 20px;
+}
+
+#menu h3 {
+  clear: both;
+  text-align: center;
+  font-family: "Footlight MT";
+  font-size: 20px;
+}
+
+footer {
+  clear: both;
+  background-color: #2a282c;
+  color: #fffff0;
+}
+#food_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+#food_img_parent {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}
+#food_container {
+  display: flex;
+  border: 1px solid white;
+  width:  400px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  position: relative;
+  /* display: block; */
+  height: 90%; 
+  overflow: hidden;
+  text-decoration: none;
+}
+#food_container_Parent {
+  display: flex;
+  border: 1px solid white;
+  width:  600px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+#food_container p {
+  float: left;
+}
+#food_name {
+  font-size: 20px;
+  font-weight: bold;
+}
+#arrow {
+  width: 50px;
+  height: 50px;
+}
+#food_info {
+  margin-left: 15px;
+}
+#food_info p {
+  text-align: left;
+}
+#food_info p {
+  text-align: left;
+}
+#foof_contain {
+  display: flex;
+}
+
+
+/********************** Start of footer ****************************/
+
+#flex_container {
+  display : flex;
+  flex-wrap : wrap; 
+}
+
+/* .item{
+  display: block;
+  flex-grow : 1;
+  padding: 2%;
+} */
+
+#copyright {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  width: 100%;
+  font-size: 10px;
+}
+
+footer h4{
+  padding-bottom: 10px;
+ }
+ .item, .desktop{
+  display: block;
+  flex-grow : 1;
+  padding-left: 2%;
+}
+.item > p{
+  text-align: left;
+}
+#footbutton{
+  background-color: #d1a25b; /* Green */
+  border: none;
+  color: rgb(95, 50, 17);
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 7px 18px; 
+  border-radius: 12px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+.cards_parent {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+/********************** End of footer ****************************/
+
+@media only all and (max-width:1424px) { 
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+  }
+  .cards_parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none;
+  }
+  #food_container {
+    border: 1px solid white;
+    width:  400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: relative;
+    display: block;
+    height: 100%; 
+    overflow: hidden;
+    text-decoration: none;
+  }
+  #food_container_Parent {
+    border: 1px solid white;
+    width:  400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: relative;
+    display: block;
+    height: 100%; 
+    overflow: hidden;
+    text-decoration: none;
+  }
+}
+
+@media only all and (max-width:760px) {
+
+  .desktop{
+    display: none;
+  }
+ 
+  /********************** Start of header ****************************/
+  header {
+    margin: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #coffeebanner{
+    height: 55px;
+    width: auto;
+    padding-bottom: 5px;
+  }
+
+  header nav{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #coffeeban ul{
+    padding: 0;
+    list-style: none;
+  }
+  #coffeeban ul li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  header nav a{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 10px;
+    font-style: normal;
+  }
+    
+  header h1 {
+    line-height: 40%;
+    font-size: 27px;
+  }
+
+  /********************** End of header ****************************/
+
+  /********************** Start of body ****************************/
+
+  body{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #intro {
+    background-image: url("./imgs/log4.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #about{
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  #about p{
+    text-align: justify;
+  }
+  
+  #about h1{
+    font-size: 23px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  #about h2{
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+  } 
+
+  #buttonwrap{
+    width: 100%;
+  }
+ 
+  #multicol{
+    display : grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    flex-wrap: none;
+  }
+
+  .menuitems{
+    height: 170px;
+    width: 190px;
+  }
+
+  #menu h3{
+    font-size: 15px;
+  }
+
+  #booking {
+    padding-top : 10px;
+  }
+  
+#bookingtab {
+  width: 100%;
+ }
+
+ #bookingtab h3 {
+  font-size: 15px;
+ }
+ 
+ form{
+   width: 90%;
+   padding: 10px 0px 10px 40px;
+   display: grid;
+   grid-template-columns: 100px auto;
+   gap : 4px;
+ }
+ 
+ label + *{
+   margin-bottom: 5px;
+ }
+ 
+ input[type=submit]{
+   justify-self: start;
+   background-color: #d1a25b; 
+     border: none;
+     color: rgb(95, 50, 17);
+     text-align: center;
+     text-decoration: none;
+     display: flex;
+     font-size: 10px;
+     font-weight: 600;
+     margin: 4px 2px;
+     cursor: pointer;
+     padding: 9px 28px; 
+     border-radius: 18px;
+ }
+ 
+ input[type="date"], input[type="time"], input[type="number"] {
+   width: 300px;
+   height: 30px;
+ }
+ 
+ label{
+   font-size: 12px;
+ }
+
+   /********************** Start of footer ****************************/
+ footer{
+   margin: 0;
+ }
+
+ footer div{
+   width: 100%;
+ }
+
+ .item{
+  float: none;
+  text-align: center;
+}
+.item > p{
+ text-align: center;
+}
+.item ul li{
+  list-style: none;
+}
+#header_Product {
+  text-align: center;
+  margin-top: 50px;
+}
+#food_img {
+  width: 400px;
+}
+#food_img_parent{
+  width: 400px;
+}
+  /********************** End of footer ****************************/
+
+}
